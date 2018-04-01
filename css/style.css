@@ -1,0 +1,21 @@
+html {
+  font-size:16px;
+  }
+
+.flex-container {
+  display: flex;
+  }
+
+header {
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+header div {
+  align-items: center;
+ }
+
+header nav ul{
+  display: block;
+ }
