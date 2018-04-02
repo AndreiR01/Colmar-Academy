@@ -104,15 +104,17 @@ header .nav-desktop ul li{
 .information-main {
   display: inline-flex;
   max-width: 100%;
+  width: 100%;
  }
 
 .banner-leftside {
   display: block;
   padding:2rem 1.5rem;
+  width: 60%;
  }
 
 .banner-leftside img {
-  width: 60%;
+  width: 100%;
   margin: auto;
   height: 30rem;
   padding-bottom: 2rem;
@@ -140,9 +142,10 @@ header .nav-desktop ul li{
 .banner-rightside {
   display:block;
   width: 40%;
-
   }
-
+.banner-rightside div:first-child {
+  padding-top: 2rem;
+}
 .banner-rightside div img {
   width: 35%;
   height: auto;
@@ -155,13 +158,23 @@ header .nav-desktop ul li{
   }
 
 .container-info {
-  display: inline-block;
+  display: flex;
   padding: 1rem;
+  width: 30rem;
   }
-
+.info {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin: 0rem;
+ }
+.info > *{
+  padding: 0.25rem 0.3rem;
+}
 .info h1{
   font-size: 2rem;
   font-weight: bold;
+
   }
 
 .info p{
