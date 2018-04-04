@@ -99,10 +99,9 @@ header .nav-desktop ul li{
   width:50%;
   font-style: 1.5rem;
  }
-#button-main-banner span {
-  padding: 0.5rem;
+#button-main-banner a {
+  padding: 1rem;
 }
-
 
 /* Information Main Section */
 
@@ -150,7 +149,6 @@ header .nav-desktop ul li{
 
 .container-info {
   display: flex;
-  width: 30rem;
   padding-left: 1.5rem;
   }
 
@@ -159,13 +157,13 @@ header .nav-desktop ul li{
   height: auto;
   padding: 1rem;
   }
-  .info {
-    width:65%;
-    display: flex;
-    vertical-align: middle;
-    justify-content: center;
-    flex-flow: column nowrap;
-    margin: 0rem;
+.info {
+  width:65%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin: 0rem;
    }
 
 .banner-rightside.info {
@@ -199,22 +197,68 @@ header .nav-desktop ul li{
 
 /*Hyperlinks Section*/
 
-a:link {
+.nav-desktop ul li a:link {
   color: rgb(89, 89, 89);
   text-decoration: none;
   }
 
-a:visited{
+.nav-desktop ul li a:visited{
   color: rgb(89, 89, 89);
   text-decoration: none;
  }
 
-a:hover{
+.nav-desktop ul li a:hover{
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-a:active{
+.nav-desktop ul li a:active{
   color: rgb(89, 89, 89);
+  text-decoration: none;
+}
+
+#button-main-banner a:link {
+  color: white;
+  text-decoration: none;
+  }
+
+#button-main-banner a:visited{
+  color: white;
+  text-decoration: none;
+ }
+
+#button-main-banner a:hover {
+   color:white!important;
+   background-color: rgb(38, 38, 38);
+   transition-property: background-color;
+   transition-duration: 0.25s;
+   transition-timing-function: ease-in;
+   text-decoration: none;
+ }
+
+a.hyperlink-read:active{
+  color: rgb(102, 194, 255);
+  text-decoration: none;
+}
+a.hyperlink-read:link {
+  color:rgb(102, 194, 255);
+  text-decoration: none;
+  }
+
+a.hyperlink-read:visited{
+  color: rgb(102, 194, 255);
+  text-decoration: none;
+ }
+
+a.hyperlink-read:hover {
+   color:rgb(0, 0, 204);
+   transition-property: color;
+   transition-duration: 0.25s;
+   transition-timing-function: ease-in;
+   text-decoration: none;
+ }
+
+a.hyperlink-read:active{
+  color: rgb(102, 194, 255);
   text-decoration: none;
 }
