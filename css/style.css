@@ -218,7 +218,7 @@ header .nav-desktop ul li{
   color: rgb(64, 64, 64);
   background: silver;
   font-family: 'Roboto', sans-serif;
-  width: 100%;
+  width: 100%;/*or 814px for the smaller boxes, values for width can be found in comments above*/
   max-width:62.625rem;
   margin: 0 auto;
 }
@@ -236,14 +236,15 @@ header .nav-desktop ul li{
 .learning-box{
   float: left;
   width:250px;
-/*  width: 313px;*/
+   width: 313px;
+/*  width: 250px;*/
   height: 270px;
   margin: 0.5rem;
 }
 
 .learning-image {
-  height:127px;
-  /*height:160px;*/
+  height:160px;
+  /*height:127px;*/
   position: relative;
 }
 .second-row-image{
