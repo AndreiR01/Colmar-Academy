@@ -149,7 +149,7 @@ header .nav-desktop ul li{
 
 .container-info {
   display: flex;
-  padding-left: 1.5rem;
+  margin-left: 1.5rem;
   }
 
 .container-info img {
