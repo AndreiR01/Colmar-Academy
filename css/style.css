@@ -235,13 +235,15 @@ header .nav-desktop ul li{
 
 .learning-box{
   float: left;
-  width: 313px;
+  width:250px;
+/*  width: 313px;*/
   height: 270px;
   margin: 0.5rem;
 }
 
 .learning-image {
-  height:160px;
+  height:127px;
+  /*height:160px;*/
   position: relative;
 }
 .second-row-image{
