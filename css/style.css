@@ -239,19 +239,44 @@ padding: 1rem;
   }
   .banner-rightside{
     width: 100%;
-    height: 40rem;
+    height: auto;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .container-info{
     flex-direction: column;
     margin: 0 auto;
-  }
+    height: auto;
+    display: flex;
+    background-color: white;
+    }
 
   #phone-pic{
     display: block;
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 0;
   }
+  .info {
+    width: 100%;
+    padding-bottom: 2rem;
+ }
+ .info h1{
+   font-size: 2rem;
+ }
+#last-info{
+  padding-bottom: 2rem;
+}
+.hyperlink-read{
+  font-weight: bold;
+}
+ .information-main {
+   display: flex;
+   padding: 0rem;
+   width: 100%;
 }
 
 /*Learning Section*/
@@ -328,18 +353,53 @@ padding-top: 3rem;
   .learning-boxes{
     display: none;
   }
+  #learning-section {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  #learning-section h1{
+    border-top: 2px solid silver;
+  }
+  .learning-container {
+    background-color: silver;
+   height: 30rem;
+  }
   .learning-section-phone{
+    background-color: white;
+    display: block;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding-bottom:2rem;
   }
   .learning-section-phone div {
-    background-color: silver;
-    padding: 1rem 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.25rem 0rem;
+    display: flex;
+    justify-content: center;
   }
   .learning-section-phone div span {
+    background-color: silver;
     padding: 1rem 1.5rem;
     color:rgb(64, 64, 64);
     font-size: 2rem;
+  }
+  .learning-section-phone div p {
+    background-color: silver;
+    padding: 1rem 1.5rem;
+    color:rgb(64, 64, 64);
+    font-size: 1.5rem;
+    width:80%;
+    text-align: center;
+  }
+  .learning-section-phone div p:hover {
+    background-color: rgb(64, 64, 64);
+    padding: 1rem 1.5rem;
+    color:silver;
+    font-size: 1.5rem;
+    margin: 0 auto;
+   transition: all 1s ease-out;
+   width: 100%;
   }
 }
 
@@ -373,15 +433,26 @@ padding-top:2rem;
  font-size: 2rem;
  font-weight: bold;
 }
-
+.thesis-ex-tit-phone{
+  display: none;
+}
 @media only screen and (max-width:580px) {
   #thesis-exhibit{
     display: block;
     width: 100%;
     padding: 2rem 0;
   }
-.thesis-ex-tit{
-
+  .thesis-ex-tit{
+    display: none;
+  }
+.thesis-ex-tit-phone{
+  display: block;
+  padding-top:2rem;
+  padding-bottom: 32px;
+  color: rgb(64, 64, 64);
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
     border-top: 2px solid silver;
 
   }
