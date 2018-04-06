@@ -360,7 +360,7 @@ padding-top: 3rem;
     border-top: 2px solid silver;
   }
   .learning-container {
-    background-color: silver;
+    background-color: white;
    height: 30rem;
   }
   .learning-section-phone{
@@ -583,4 +583,19 @@ a.hyperlink-read:hover {
 a.hyperlink-read:active{
   color: rgb(102, 194, 255);
   text-decoration: none;
+}
+
+.learning-section-phone a:active {
+    text-decoration: none;
+}
+.learning-section-phone a:link {
+    text-decoration: none;
+}
+
+.learning-section-phone a:visited {
+    text-decoration: none;
+}
+
+.learning-section-phone a:hover {
+    text-decoration: none;
 }
