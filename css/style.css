@@ -54,59 +54,80 @@ header .nav-desktop ul li{
 }
 
 
-   /* Main Banner */
+/* Main Banner */
 .background-banner{
-  width: 100%;
-  background-color: silver;
+width: 100%;
+background-color: silver;
 }
 .main-banner{
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  background-color: silver;
-  padding-top: 4rem;
-  }
+display: flex;
+width: 80%;
+margin: 0 auto;
+background-color: silver;
+padding-top: 4rem;
+}
 
 .main-banner img{
-  width: 60%;
-  height: 30rem;
-  padding:2rem 1.5rem;
-  }
+width: 60%;
+height: 30rem;
+padding:2rem 1.5rem;
+}
 
 .main-banner div{
-  display: flex;
-  justify-content: center;
-  margin: auto 0;
-  text-align: left;
-  flex-flow: column nowrap;
-  }
+display: flex;
+justify-content: center;
+margin: auto 0;
+text-align: left;
+flex-flow: column nowrap;
+}
 
 .main-banner div h2{
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
-  color: rgb(77, 77, 77);
- }
+font-size: 2.5rem;
+font-weight: bold;
+margin: 1rem 0;
+color: rgb(77, 77, 77);
+}
 
 .main-banner div h4{
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
-  color:rgb(77, 77, 77);
-  line-height: 1.5;
- }
+font-size: 1.5rem;
+font-weight: bold;
+margin: 1rem 0;
+color:rgb(77, 77, 77);
+line-height: 1.5;
+}
 
 #button-main-banner {
-  font-size: 1rem;
-  text-align: center;
-  color:white;
-  background-color: grey;
-  margin: 1rem 0;
-  width:50%;
-  font-style: 1.5rem;
- }
+font-size: 1rem;
+text-align: center;
+color:white;
+background-color: grey;
+margin: 1rem 0;
+width:50%;
+font-style: 1.5rem;
+}
 #button-main-banner a {
-  padding: 1rem;
+padding: 1rem;
+}
+@media only screen and (max-width:580px){
+.main-banner{
+  width: 100%;
+  flex-direction: column;
+}
+.main-banner img{
+  width: 100%;
+  height:auto;
+  padding: 0;
+}
+.main-banner div {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+#button-main-banner {
+ width:80%;
+ margin: 0 auto;
+ padding: 0;
+}
+
 }
 
 /* Information Main Section */
@@ -162,7 +183,7 @@ header .nav-desktop ul li{
 
 .container-info {
   display: flex;
-  margin-left: 1.5rem;
+  margin-left: 3rem;
   height:13.75rem;
   }
 
@@ -208,6 +229,33 @@ header .nav-desktop ul li{
   font-size: 0.75rem;
   font-weight: lighter;
 }
+#phone-pic {
+  display: none;
+}
+
+@media only screen and (max-width:580px){
+  .banner-leftside, #desktop-pic {
+    display: none;
+  }
+  .banner-rightside{
+    width: 100%;
+    height: 40rem;
+  }
+  .container-info{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #phone-pic{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+
+
+
 
 /*Learning Section*/
 .learning-container{
@@ -280,6 +328,28 @@ padding-top: 3rem;
   font-size: 0.9rem;
   line-height: 1.5;
 }
+.learning-section-phone{
+  display: none;
+}
+
+@media only screen and (max-width:580px) {
+  .learning-container{
+    display: none;
+  }
+  .learning-section-phone{
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  .learning-section-phone div {
+    background-color: silver;
+    padding: 1rem 1.5rem;
+  }
+  .learning-section-phone div span {
+    padding: 1rem 1.5rem;
+    color:rgb(64, 64, 64);
+    font-size: 2rem;
+  }
+}
 
 /*Thesis exhibit section*/
 #thesis-exhibit{
@@ -301,11 +371,24 @@ padding-top: 3rem;
 .banner-leftside-exhibit video {
   width: 100%;
   height:auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
-
-
-
+@media only screen and (max-width:580px) {
+  .exhibits-content{
+    display: none;
+  }
+  .exhibits-rightside{
+    display: none;
+  }
+  .banner-leftside-exhibit video{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}
 
 
 
@@ -314,17 +397,36 @@ padding-top: 3rem;
 
 /*Footer*/
 #footer {
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  border-top: 2px solid silver;
+  height: 7rem;
 }
 .copyright-info {
   padding-top:1rem;
   padding-left:1.5rem;
-  display: inline-block;
+
+}
+.footer-terms {
+  padding-top:1rem;
+  padding-right:1.5rem;
 }
 
+@media only screen and (max-width:580px) {
+#footer {
+  text-align: left;
+  height: 5rem;
+  align-items: center;
+  }
+.copyright-info {
+  padding: 1rem 1.5rem;
+  }
+.footer-terms{
+    display: none;
+  }
 
-
+}
 
 
 
