@@ -41,18 +41,17 @@ header .nav-desktop ul li{
   display: none;
   }
 
-@media only screen and (max-width:580px) {
-  .nav-desktop, .logo-nav{
-    display: none;
+  @media only screen and (max-width:580px) {
+    .nav-desktop, .logo-nav{
+      display: none;
+    }
+    .nav-phone {
+      display: inline-flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
   }
-  .nav-phone {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-}
-
 
 /* Main Banner */
 .background-banner{
@@ -129,7 +128,6 @@ padding: 1rem;
 }
 
 }
-
 /* Information Main Section */
 
 .information-main {
@@ -278,7 +276,7 @@ padding: 1rem;
    padding: 0rem;
    width: 100%;
 }
-
+}
 /*Learning Section*/
 .learning-container{
   background-color: silver;
@@ -473,11 +471,6 @@ padding-top:2rem;
   }
 }
 
-
-
-
-
-
 /*Footer*/
 #footer {
   display: flex;
@@ -510,6 +503,11 @@ padding-top:2rem;
   }
 
 }
+
+
+
+
+
 
 
 
