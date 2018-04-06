@@ -41,7 +41,7 @@ header .nav-desktop ul li{
   display: none;
   }
 
-  @media only screen and (max-width:580px) {
+  @media only screen and (max-width:1050px) {
     .nav-desktop, .logo-nav{
       display: none;
     }
@@ -107,7 +107,7 @@ font-style: 1.5rem;
 #button-main-banner a {
 padding: 1rem;
 }
-@media only screen and (max-width:580px){
+@media only screen and (max-width:1050px){
 .main-banner{
   width: 100%;
   flex-direction: column;
@@ -231,7 +231,7 @@ padding: 1rem;
   display: none;
 }
 
-@media only screen and (max-width:580px){
+@media only screen and (max-width:1050px){
   .banner-leftside, #desktop-pic {
     display: none;
   }
@@ -347,7 +347,7 @@ padding-top: 3rem;
   display: none;
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:1050px) {
   .learning-boxes{
     display: none;
   }
@@ -434,7 +434,7 @@ padding-top:2rem;
 .thesis-ex-tit-phone{
   display: none;
 }
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:1050px) {
   #thesis-exhibit{
     display: block;
     width: 100%;
@@ -489,7 +489,7 @@ padding-top:2rem;
   padding-right:1.5rem;
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:1050px) {
 #footer {
   text-align: left;
   height: 5rem;
