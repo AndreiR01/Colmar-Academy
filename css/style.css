@@ -247,15 +247,12 @@ padding: 1rem;
   }
 
   #phone-pic{
+    display: block;
     width: 100%;
     height: auto;
     padding: 1rem;
   }
 }
-
-
-
-
 
 /*Learning Section*/
 .learning-container{
@@ -278,9 +275,6 @@ padding: 1rem;
   font-size: 2rem;
   font-weight: bold;
 }
-.learning-boxes {
-
-}
 
 .learning-box{
   float: left;
@@ -298,7 +292,6 @@ padding: 1rem;
 }
 .second-row-image{
 padding-top: 3rem;
-
 }
 
 .learning-image img {
@@ -315,7 +308,6 @@ padding-top: 3rem;
 .learning-info h2{
   font-size: 1.5rem;
   font-weight:bold;
-
 }
 
 .learning-info h5{
@@ -333,7 +325,7 @@ padding-top: 3rem;
 }
 
 @media only screen and (max-width:580px) {
-  .learning-container{
+  .learning-boxes{
     display: none;
   }
   .learning-section-phone{
@@ -374,8 +366,28 @@ padding-top: 3rem;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+.thesis-ex-tit{
+padding-top:2rem;
+ color: rgb(64, 64, 64);
+ text-align: center;
+ font-size: 2rem;
+ font-weight: bold;
+}
 
 @media only screen and (max-width:580px) {
+  #thesis-exhibit{
+    display: block;
+    width: 100%;
+    padding: 2rem 0;
+  }
+.thesis-ex-tit{
+
+    border-top: 2px solid silver;
+
+  }
+  .banner-leftside-exhibit {
+    width: 100%;
+}
   .exhibits-content{
     display: none;
   }
