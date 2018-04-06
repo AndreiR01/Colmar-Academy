@@ -20,6 +20,7 @@ header {
   background-color: white;
   width: 100%;
   position: fixed;
+  z-index: 1;
   }
 
 header div {
@@ -280,8 +281,60 @@ padding-top: 3rem;
   line-height: 1.5;
 }
 
+/*Thesis exhibit section*/
+#thesis-exhibit{
+ font-family: 'Roboto', sans-serif;
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+ color: rgb(64, 64, 64);
+ padding: 2rem 1.5rem;
+}
+
+.container-first {
+  background-color: silver;
+}
+
+.banner-leftside-exhibit {
+  width: 60%;
+}
+.banner-leftside-exhibit video {
+  width: 100%;
+  height:auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+.copyright-info {
+  padding-top:1rem;
+  padding-left:1.5rem;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*Hyperlinks Section*/
+
 
 .nav-desktop ul li a:link {
   color: rgb(89, 89, 89);
